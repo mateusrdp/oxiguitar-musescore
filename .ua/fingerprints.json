@@ -1,0 +1,107 @@
+{
+  "version": "1.0.0",
+  "gitCommitHash": "5db29415bba033dcbd04a3df1f20510ef4c5cd21",
+  "generatedAt": "2026-11-07T13:27:50.905Z",
+  "files": {
+    ".github/dependabot.yml": {
+      "filePath": ".github/dependabot.yml",
+      "contentHash": "07afc929af00c948d11b4165dab88dde585c255d436ca831723008c90c28c911",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 17,
+      "hasStructuralAnalysis": false
+    },
+    ".github/pull_request_template.md": {
+      "filePath": ".github/pull_request_template.md",
+      "contentHash": "2725627b502bd9a41e49fa5324897c4c507ae2dc69a726057c974456140b6213",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 16,
+      "hasStructuralAnalysis": false
+    },
+    ".github/workflows/ci.yml": {
+      "filePath": ".github/workflows/ci.yml",
+      "contentHash": "147a2717a8b17c4cfc8241873ff15bb5ba4a284c43756059bc4bd251c1e3d195",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 175,
+      "hasStructuralAnalysis": false
+    },
+    "CLAUDE.md": {
+      "filePath": "CLAUDE.md",
+      "contentHash": "7c5ef2da3e959f64efd00bd3aab31bdfd60a1ae3947a6a2a8c116a5dcb916fb8",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 34,
+      "hasStructuralAnalysis": false
+    },
+    "CONTRIBUTING.md": {
+      "filePath": "CONTRIBUTING.md",
+      "contentHash": "e5ace273b66e9cfd0454cab3c2f0f42c726765917dde46c09672b64ee1bbe223",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 43,
+      "hasStructuralAnalysis": false
+    },
+    "README.md": {
+      "filePath": "README.md",
+      "contentHash": "1df824445c6f6cfc6877f87cf42a1c7ef0f1a25efb9f2434c7796efcbdb79f6b",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 15,
+      "hasStructuralAnalysis": false
+    },
+    "clippy.toml": {
+      "filePath": "clippy.toml",
+      "contentHash": "f47870687bec93d43189402220733f9f496cb22ec33914d2c35c4dc65c3ffa11",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 6,
+      "hasStructuralAnalysis": false
+    },
+    "deny.toml": {
+      "filePath": "deny.toml",
+      "contentHash": "e3533f4749ad3b5cc1868bf4a1ac96a33af22c34c142249de95883fda9e27bd7",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 65,
+      "hasStructuralAnalysis": false
+    },
+    "rustfmt.toml": {
+      "filePath": "rustfmt.toml",
+      "contentHash": "d461d42d0e324e3bd489a46e068794c0358a9f542c90495ed15ee2e581cb66ad",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 4,
+      "hasStructuralAnalysis": false
+    },
+    "scripts/check-dco.sh": {
+      "filePath": "scripts/check-dco.sh",
+      "contentHash": "09c2fc940f2e61ebbfe8f266bcbcb8c1aafd454ea078a1288566a0465a27570d",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 71,
+      "hasStructuralAnalysis": false
+    }
+  }
+}
