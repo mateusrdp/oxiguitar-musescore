@@ -1,0 +1,18 @@
+{
+  "version": "1.0.0",
+  "gitCommitHash": "5db29415bba033dcbd04a3df1f20510ef4c5cd21",
+  "analyzedAt": "2026-11-07T13:55:11.207Z",
+  "totalNodes": 10,
+  "totalEdges": 9,
+  "totalLayers": 4,
+  "tourSteps": 6,
+  "languages": [
+    "yaml",
+    "markdown",
+    "toml",
+    "shell"
+  ],
+  "frameworks": [],
+  "complexity": "small",
+  "fileCount": 10
+}

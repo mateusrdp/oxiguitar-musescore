@@ -1,0 +1,336 @@
+{
+  "version": "1.0.0",
+  "project": {
+    "name": "oxiguitar-musescore",
+    "languages": [
+      "yaml",
+      "markdown",
+      "toml",
+      "shell"
+    ],
+    "frameworks": [],
+    "description": "MuseScore file format support for OxiGuitar — a free, open-source guitar tablature and score viewer, editor and player for Windows, macOS and Linux.",
+    "analyzedAt": "2026-11-07T13:55:11.206Z",
+    "gitCommitHash": "5db29415bba033dcbd04a3df1f20510ef4c5cd21"
+  },
+  "nodes": [
+    {
+      "id": "file:.github/workflows/ci.yml",
+      "type": "file",
+      "name": "CI Workflow",
+      "summary": "GitHub Actions CI workflow that runs formatting (rustfmt), linting (clippy), multi-platform testing, license/advisory checks (cargo-deny), and DCO sign-off validation. Uses a ci-success gate job to ensure all checks pass before merging.",
+      "tags": [
+        "ci",
+        "github-actions",
+        "yaml",
+        "rust",
+        "testing",
+        "linting",
+        "devops"
+      ],
+      "filePath": ".github/workflows/ci.yml",
+      "language": "yaml",
+      "complexity": "moderate",
+      "sizeLines": 174
+    },
+    {
+      "id": "file:CLAUDE.md",
+      "type": "file",
+      "name": "Claude Working Guidelines",
+      "summary": "Standing rules and project conventions for working on oxiguitar-musescore with Claude. Covers branch strategy, Rust versioning, PR workflow, test requirements, and repository-specific policies.",
+      "tags": [
+        "docs",
+        "conventions",
+        "claude",
+        "workflow",
+        "rules"
+      ],
+      "filePath": "CLAUDE.md",
+      "language": "markdown",
+      "complexity": "simple",
+      "sizeLines": 33
+    },
+    {
+      "id": "file:CONTRIBUTING.md",
+      "type": "file",
+      "name": "Contributing Guide",
+      "summary": "Contribution guidelines for oxiguitar-musescore. Covers the GPL-3.0-or-later license terms and how to submit contributions.",
+      "tags": [
+        "docs",
+        "contributing",
+        "license",
+        "gpl-3.0"
+      ],
+      "filePath": "CONTRIBUTING.md",
+      "language": "markdown",
+      "complexity": "simple",
+      "sizeLines": 42
+    },
+    {
+      "id": "file:README.md",
+      "type": "file",
+      "name": "README",
+      "summary": "Project overview for oxiguitar-musescore, a MuseScore file format support library for the OxiGuitar tablature viewer, editor, and player. Links to the main OxiGuitar repository.",
+      "tags": [
+        "docs",
+        "readme",
+        "overview",
+        "musescore"
+      ],
+      "filePath": "README.md",
+      "language": "markdown",
+      "complexity": "simple",
+      "sizeLines": 14
+    },
+    {
+      "id": "file:clippy.toml",
+      "type": "file",
+      "name": "Clippy Configuration",
+      "summary": "Rust clippy linter configuration file that controls lint behavior and suppressions for the project.",
+      "tags": [
+        "config",
+        "clippy",
+        "rust",
+        "linting"
+      ],
+      "filePath": "clippy.toml",
+      "language": "toml",
+      "complexity": "simple",
+      "sizeLines": 5
+    },
+    {
+      "id": "file:deny.toml",
+      "type": "file",
+      "name": "Cargo Deny Configuration",
+      "summary": "Cargo-deny configuration for license compliance and security advisory checking. Defines allowed licenses, blocked advisories, and source restrictions.",
+      "tags": [
+        "config",
+        "deny",
+        "rust",
+        "security",
+        "licenses",
+        "advisories"
+      ],
+      "filePath": "deny.toml",
+      "language": "toml",
+      "complexity": "moderate",
+      "sizeLines": 64
+    },
+    {
+      "id": "file:rustfmt.toml",
+      "type": "file",
+      "name": "Rustfmt Configuration",
+      "summary": "Rust code formatting configuration for cargo fmt, defining style rules and formatting options.",
+      "tags": [
+        "config",
+        "rustfmt",
+        "rust",
+        "formatting"
+      ],
+      "filePath": "rustfmt.toml",
+      "language": "toml",
+      "complexity": "simple",
+      "sizeLines": 3
+    },
+    {
+      "id": "file:.github/dependabot.yml",
+      "type": "file",
+      "name": "Dependabot Configuration",
+      "summary": "GitHub Dependabot configuration for automated dependency version updates. Manages update frequency, package ecosystem, and target branches.",
+      "tags": [
+        "config",
+        "dependabot",
+        "github-actions",
+        "dependencies",
+        "automation"
+      ],
+      "filePath": ".github/dependabot.yml",
+      "language": "yaml",
+      "complexity": "simple",
+      "sizeLines": 16
+    },
+    {
+      "id": "file:.github/pull_request_template.md",
+      "type": "file",
+      "name": "Pull Request Template",
+      "summary": "GitHub pull request template that guides contributors on what information to include when opening a PR.",
+      "tags": [
+        "docs",
+        "github",
+        "pull-request",
+        "template"
+      ],
+      "filePath": ".github/pull_request_template.md",
+      "language": "markdown",
+      "complexity": "simple",
+      "sizeLines": 15
+    },
+    {
+      "id": "file:scripts/check-dco.sh",
+      "type": "file",
+      "name": "DCO Check Script",
+      "summary": "Shell script that checks for Developer Certificate of Origin (DCO) sign-offs across a range of commits. Used in CI to verify that all commits in a PR are properly signed off.",
+      "tags": [
+        "script",
+        "dco",
+        "shell",
+        "compliance",
+        "ci"
+      ],
+      "filePath": "scripts/check-dco.sh",
+      "language": "shell",
+      "complexity": "simple",
+      "sizeLines": 70
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:CLAUDE.md",
+      "target": "file:README.md",
+      "type": "documents",
+      "direction": "forward"
+    },
+    {
+      "source": "file:CLAUDE.md",
+      "target": "file:CONTRIBUTING.md",
+      "type": "documents",
+      "direction": "forward"
+    },
+    {
+      "source": "file:CONTRIBUTING.md",
+      "target": "file:README.md",
+      "type": "documents",
+      "direction": "forward"
+    },
+    {
+      "source": "file:scripts/check-dco.sh",
+      "target": "file:.github/workflows/ci.yml",
+      "type": "configures",
+      "direction": "forward"
+    },
+    {
+      "source": "file:.github/dependabot.yml",
+      "target": "file:.github/workflows/ci.yml",
+      "type": "configures",
+      "direction": "forward"
+    },
+    {
+      "source": "file:.github/pull_request_template.md",
+      "target": "file:CONTRIBUTING.md",
+      "type": "documents",
+      "direction": "forward"
+    },
+    {
+      "source": "file:clippy.toml",
+      "target": "file:.github/workflows/ci.yml",
+      "type": "configures",
+      "direction": "forward"
+    },
+    {
+      "source": "file:deny.toml",
+      "target": "file:.github/workflows/ci.yml",
+      "type": "configures",
+      "direction": "forward"
+    },
+    {
+      "source": "file:rustfmt.toml",
+      "target": "file:.github/workflows/ci.yml",
+      "type": "configures",
+      "direction": "forward"
+    }
+  ],
+  "layers": [
+    {
+      "id": "layer:documentation",
+      "name": "Documentation",
+      "description": "Project documentation, guides, and contribution instructions. Includes the README, CLAUDE working guidelines, contributing guide, and pull request template.",
+      "nodeIds": [
+        "file:README.md",
+        "file:CLAUDE.md",
+        "file:CONTRIBUTING.md",
+        "file:.github/pull_request_template.md"
+      ]
+    },
+    {
+      "id": "layer:ci-cd",
+      "name": "CI/CD Pipeline",
+      "description": "GitHub Actions CI workflow and Dependabot configuration. The CI runs formatting, linting, multi-platform testing, license checks, and DCO validation.",
+      "nodeIds": [
+        "file:.github/workflows/ci.yml",
+        "file:.github/dependabot.yml"
+      ]
+    },
+    {
+      "id": "layer:rust-tooling",
+      "name": "Rust Tooling Configuration",
+      "description": "Rust development tooling configuration for code quality: clippy linter, cargo-deny license/advisory checking, and rustfmt code formatting.",
+      "nodeIds": [
+        "file:clippy.toml",
+        "file:deny.toml",
+        "file:rustfmt.toml"
+      ]
+    },
+    {
+      "id": "layer:scripts",
+      "name": "Scripts",
+      "description": "Utility scripts used by the CI pipeline and development workflow.",
+      "nodeIds": [
+        "file:scripts/check-dco.sh"
+      ]
+    }
+  ],
+  "tour": [
+    {
+      "order": 1,
+      "title": "Project Overview",
+      "description": "Start with the README to understand that oxiguitar-musescore provides MuseScore file format support for the OxiGuitar tablature viewer, editor, and player. This repository is part of the larger OxiGuitar project.",
+      "nodeIds": [
+        "file:README.md"
+      ]
+    },
+    {
+      "order": 2,
+      "title": "Project Conventions",
+      "description": "Read CLAUDE.md for standing rules and conventions used when working on this project, including branch strategy, Rust versioning, and PR workflow.",
+      "nodeIds": [
+        "file:CLAUDE.md"
+      ]
+    },
+    {
+      "order": 3,
+      "title": "Contributing",
+      "description": "Review CONTRIBUTING.md for contribution guidelines under the GPL-3.0-or-later license.",
+      "nodeIds": [
+        "file:CONTRIBUTING.md"
+      ]
+    },
+    {
+      "order": 4,
+      "title": "Rust Tooling Configuration",
+      "description": "Examine the Rust tooling configs: clippy.toml for lint rules, deny.toml for license and advisory compliance, and rustfmt.toml for code formatting.",
+      "nodeIds": [
+        "file:clippy.toml",
+        "file:deny.toml",
+        "file:rustfmt.toml"
+      ]
+    },
+    {
+      "order": 5,
+      "title": "CI/CD Pipeline",
+      "description": "Review the GitHub Actions CI workflow that runs formatting, linting, multi-platform testing, license checks, and DCO sign-off validation. The ci-success gate job ensures all checks pass before merging.",
+      "nodeIds": [
+        "file:.github/workflows/ci.yml"
+      ]
+    },
+    {
+      "order": 6,
+      "title": "Development Utilities",
+      "description": "Review the DCO check script and Dependabot configuration that support the CI pipeline and automated dependency management.",
+      "nodeIds": [
+        "file:scripts/check-dco.sh",
+        "file:.github/dependabot.yml",
+        "file:.github/pull_request_template.md"
+      ]
+    }
+  ]
+}
