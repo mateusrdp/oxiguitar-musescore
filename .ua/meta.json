@@ -1,18 +1,21 @@
 {
   "version": "1.0.0",
-  "gitCommitHash": "5db29415bba033dcbd04a3df1f20510ef4c5cd21",
-  "analyzedAt": "2026-11-07T13:55:11.207Z",
-  "totalNodes": 10,
-  "totalEdges": 9,
-  "totalLayers": 4,
+  "gitCommitHash": "b67306bafee496c5eb5d76ca3d77ef6104d7d1d5",
+  "analyzedAt": "2026-11-26T03:58:59.741Z",
+  "totalNodes": 14,
+  "totalEdges": 15,
+  "totalLayers": 3,
   "tourSteps": 6,
   "languages": [
     "yaml",
     "markdown",
+    "json",
     "toml",
     "shell"
   ],
   "frameworks": [],
   "complexity": "small",
-  "fileCount": 10
+  "fileCount": 14,
+  "lastAnalyzedCommit": "b67306bafee496c5eb5d76ca3d77ef6104d7d1d5",
+  "graphCommit": "b67306bafee496c5eb5d76ca3d77ef6104d7d1d5"
 }
